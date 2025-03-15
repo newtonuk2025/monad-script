@@ -1,0 +1,50 @@
+# 虚拟环境
+venv/
+env/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 日志文件
+logs/
+*.log
+
+# 敏感数据文件
+data/private_keys.txt
+data/proxies.txt
+data/twitter_tokens.txt
+data/keys_for_faucet.txt
+data/discord_tokens.txt
+data/email_tokens.txt
+data/*.txt
+
+# IDE 文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 备份文件
+backup/
+*.bak
